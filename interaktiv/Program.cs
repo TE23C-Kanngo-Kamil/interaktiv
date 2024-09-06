@@ -3,7 +3,7 @@ string name = Console.ReadLine().ToLower();
 
 if (name == "kamil" || name == "ares" || name == "edward")
 {
-    Console.WriteLine("Välkommen!");
+    Console.WriteLine("Välkommen! Tryck ENTER för att fortsätta.");
 }
 else
 {
