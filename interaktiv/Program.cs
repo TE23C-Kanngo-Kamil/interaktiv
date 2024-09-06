@@ -1,14 +1,11 @@
 ﻿Console.WriteLine("Användarnamn:");
 string name = Console.ReadLine().ToLower();
 
-if (name == "kamil" || name == "ares" || name == "edward")
+if (name == "kamil" || name == "ares" || name == "edward" || name == "micke")
 {
     Console.WriteLine("Välkommen! Tryck ENTER för att fortsätta.");
 }
-else
-{
-    Console.WriteLine("Stick härifrån!");
-}
+
 
 Console.ReadLine();
 
