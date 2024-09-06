@@ -43,7 +43,7 @@ else if (choice == "vänster")
 
 if (choice == "undersök runt stugan")
 {
-    Console.WriteLine("Du går tyst runt stugan men du råkar ta ett fel steg och faller rakt ner för en lång trappa in i mörkret.");
+    Console.WriteLine("Du går tyst runt stugan men du råkar ta ett fel steg och faller rakt ner för en lång trappa in i en mörk källare.");
     Console.WriteLine("I källaren hittar du en magisk bok på ett gammalt träbord.");
     Console.WriteLine("Du tar upp boken och bläddrar i den.");
     Console.WriteLine("Genom att läsa de mystiska texterna får du plötsligt en kraft inom dig, du har nu magiska förmågor!");
@@ -61,10 +61,7 @@ else if (choice == "gå in i stugan")
     Console.WriteLine("Kvinnan ler brett.");
     Console.WriteLine("Du blir ett med skogen för alltid.");
 }
-else
-{
-    Console.WriteLine("Din klant! Du skrev inget jag kunde förstå, så nu dör du automatiskt.");
-}
+
 
 Console.WriteLine("Tryck ENTER för att avsluta.");
 Console.ReadLine();
